@@ -1,0 +1,5 @@
+select ID, EMAIL, FIRST_NAME, LAST_NAME 
+from DEVELOPER_INFOS
+where (DEVELOPER_INFOS .SKILL_1 = 'Python') or (DEVELOPER_INFOS .SKILL_2 = 'Python')
+or((DEVELOPER_INFOS .SKILL_3 = 'Python'))
+order by ID ASC
